@@ -2,7 +2,10 @@
 
     <div class="cont_img_nav">
 
-      <!-- <img src="../assets/img/dc-logo.png" alt="" /> -->
+      <div class="cont_img_header">
+
+        <img src=" {{asset('images/dc-logo.png')}} " alt="" />
+      </div>
 
       <nav>
         <a href="#">CHARACTERS</a>

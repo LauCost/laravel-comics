@@ -17,8 +17,14 @@ header {
     justify-content: space-between;
   }
 
-  img {
+}
+
+.cont_img_header{
+    width: 70px;
+
+    img {
     padding: 20px 0;
+    width: 100%;
   }
 }
 
