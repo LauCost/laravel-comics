@@ -5,7 +5,6 @@
 }
 
 /************ Variabili ************/
-
 .cont {
   width: 70%;
   margin: auto;
@@ -29,9 +28,7 @@
 }
 
 /************ /Variabili ************/
-
 /************ Header ************/
-
 header .cont_img_nav {
   width: 70%;
   margin: auto;
@@ -44,7 +41,6 @@ header .cont_img_nav {
 .cont_img_header {
   width: 70px;
 }
-
 .cont_img_header img {
   padding: 20px 0;
   width: 100%;
@@ -57,30 +53,79 @@ nav a {
   color: #464646;
   font-weight: 600;
 }
-
 nav .attivo {
   color: #0282f9;
   border-bottom: 3px solid #0282f9;
 }
 
 /************ /Header ************/
-
-/************ /Footer ************/
-
-.background {
-  background-image: url("");
-  background-size: cover;
+/************ Main ************/
+main {
+  background-color: black;
 }
 
+.jumbo {
+  width: 100%;
+  height: 400px;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.series {
+  background-color: #0282f9;
+  padding: 10px 25px;
+  text-align: center;
+  position: absolute;
+  left: 18%;
+  bottom: -2%;
+  transform: translate(0%, 35%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.card {
+  width: 13%;
+  margin: 30px 15px;
+}
+.card img {
+  width: 180px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.card p {
+  margin: 15px 0;
+  color: #ffffff;
+  font-size: 12.5px;
+}
+
+.load_series {
+  padding: 10px 65px;
+  margin: 10px 0;
+  background-color: #0282f9;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/************ /Main ************/
+/************ /Footer ************/
+.background {
+  background-image: url("../../public/images/footer-bg.jpg");
+  background-size: cover;
+}
 .background h3 {
   color: #ffffff;
   margin: 10px 0;
 }
-
 .background ul {
   list-style: none;
 }
-
 .background ul li {
   color: #779595;
   margin: 5px 0;
@@ -88,7 +133,7 @@ nav .attivo {
 }
 
 .links {
-  background-image: url("");
+  background-image: url("../../public/images/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -118,17 +163,14 @@ nav .attivo {
 .social {
   align-items: center;
 }
-
 .social p {
   color: #0282f9;
   font-weight: bold;
   font-size: 20px;
   margin-right: 10px;
 }
-
 .social img {
   margin: 0 10px;
 }
 
 /************ /Footer ************/
-
