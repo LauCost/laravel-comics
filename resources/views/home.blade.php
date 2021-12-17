@@ -16,7 +16,30 @@
         @endforeach
         <button class="load_series">LOAD MORE</button>
     </div>
-    <!-- <Utility /> -->
+    <div class="blue">
+    <div class="cont dispi">
+      <div class="utility">
+        <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="" />
+        <p>DIGITAL COMICS</p>
+      </div>
+      <div class="utility">
+        <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="" />
+        <p>DC MERCHANDISE</p>
+      </div>
+      <div class="utility">
+        <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="" />
+        <p>SUBSCRIPTION</p>
+      </div>
+      <div class="utility">
+        <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="" />
+        <p>COMICS SHOP LOCATOR</p>
+      </div>
+      <div class="utility">
+        <img src=".{{asset('images/buy-dc-power-visa.svg')}}" alt="" />
+        <p>DC POWER VISA</p>
+      </div>
+    </div>
+  </div>
 
 
 @endsection
